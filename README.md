@@ -14,10 +14,11 @@ Mientras que la concurrencia ocurre cuando varios hilos intentan usar o comparti
 Cuando hay varios hilos acceden al mismo recurso en ese mismo momento, se puede producir errores o resultados incorrectos, en el ejercicio de la cuenta bancaria, si hay varios clientes que retiraran dinero exactamente al mismo tiempo sin control, el saldo podría tener una mala actualización que podría quedar un valor negativo o incorrecto.
 
 
-### 3. ¿Qué es una condición de carrera (Race Condition)?
+### 3. ¿Qué es una condición de carrera?
 
 **Respuesta:**  
-El problema ocurre cuando hay dos o más hilos que intentan modificar un mismo recurso compartido al mismo tiempo, en el ejercicio 2, por ejemplo, si no se usara la entidad “synchronized”, varios clientes podrían revisar el saldo al mismo tiempo al igual que retirar dinero, aunque solo ocurre en el primer intento.
+Una condición de carrera ocurre cuando dos o más hilos intentan modificar un mismo recurso compartido al mismo tiempo y el resultado depende del orden en que se ejecuten, en este caso, en el ejercicio 2, si no se usara `synchronized`, varios clientes podrían revisar el saldo al mismo tiempo y también retirar dinero, aunque realmente solo uno debería hacerlo primero.
+
 
 ### 4. ¿Por qué es importante sincronizar el acceso a recursos compartidos?
 

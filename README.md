@@ -25,15 +25,6 @@ Una **condición de carrera** ocurre cuando dos o más hilos intentan modificar 
 Es importante porque evita que varios hilos entren al mismo tiempo a modificar un recurso compartido. En el ejercicio 2, la palabra clave `synchronized` hace que un solo cliente pueda retirar dinero a la vez, lo cual protege el saldo de la cuenta y evita inconsistencias.
 
 
-## Concepto clave usado en el ejercicio 2
-
-### `synchronized`
-
-
-
-`synchronized` es una **palabra clave de Java** que permite sincronizar el acceso de varios hilos a un recurso compartido. Su función es hacer que solo un hilo pueda entrar a un método o bloque de código a la vez, evitando errores en la ejecución concurrente.
-
-
 ## Autor 🖋️
 
 - [@Pipebc20](https://github.com/Pipebc20) - (Juan Felipe Bahamon Castillo)

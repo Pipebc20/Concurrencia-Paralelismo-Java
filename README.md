@@ -25,6 +25,8 @@ Una condición de carrera ocurre cuando dos o más hilos intentan modificar un m
 **Respuesta:**  
 Es importante porque evita que varios hilos entren al mismo tiempo a modificar un recurso compartido, por ejemplo, en el ejercicio 2, la entidad “synchronized” hace que un solo cliente pueda retirar dinero a la vez, lo cual, protege el saldo de la cuenta y evita inconsistencias.
 
+**Respuesta:** El taller realizado y completo está en el link del repositorio de mi compañero (https://github.com/Afandres/concurrencia_and_paralelismo.git)
+
 
 ## Autor 🖋️
 
